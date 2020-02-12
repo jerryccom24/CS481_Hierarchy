@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="homework3_hierarchy.page3" Title=" Jerry's Favorite Food">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="homework3_hierarchy.page3" Title=" Jerry's Favorite Food" BackgroundColor="LightGreen">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Pizza" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
             <Image VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  Source="pizza.jpg"></Image>
-            <Button WidthRequest="300" Padding="20" BackgroundColor="LightBlue" FontSize="Large" Text="Bonus Question" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+            <Button TextColor="Black" WidthRequest="300" Padding="20" BackgroundColor="LightGoldenrodYellow" FontSize="Large" Text="Bonus Question" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -5,8 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="homework3_hierarchy.MainPage"
-             Title="Home">
-    
+             Title="Home"
+             BackgroundColor="LightGreen">
+        <!-- Jerry Compton
+             CS 481
+             Prof. Zampell
+             HW 3 - hierarchy
+
+            This is the main root page for the program. It has the buttons to navigate to
+            the 3 option pages.
+
+            From page3.xaml the user can navaigate 2 pages deep and answer a bonus question.
+            After that, the user can return back to the main page. (Utilizing popToRootAsync)
+            I tested this iOS and Android. Seemed to worked well on both.
+        -->
         <!-- Place new controls here -->
         <Grid Padding="10,0" RowSpacing="10">
             <Grid.ColumnDefinitions>
@@ -20,9 +32,9 @@
         <Label FontAttributes="Bold" FontSize="Large" Text="What is Jerry Compton's favorite:" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
 
         <StackLayout Grid.Row="1" Spacing="20">
-            <Button WidthRequest="300" Padding="20" BackgroundColor="LightBlue" Grid.Row="1" Grid.Column="0"  FontSize="Large" TextColor="Black" Text="Movie" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  ></Button>
-            <Button WidthRequest="300" Padding="20" BackgroundColor="LightBlue" Grid.Row="2" Grid.Column="0" FontSize="Large" TextColor="Black" Text="Artist" Clicked="Button_Clicked_1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" ></Button>
-            <Button WidthRequest="300" Padding="20" BackgroundColor="LightBlue" Grid.Row="3" Grid.Column="0" FontSize="Large" TextColor="Black" Text="Food" Clicked="Button_Clicked_2" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  ></Button>
+            <Button WidthRequest="300" Padding="20" BackgroundColor="LightCoral" Grid.Row="1" Grid.Column="0"  FontSize="Large" TextColor="Black" Text="Movie" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  ></Button>
+            <Button WidthRequest="300" Padding="20" BackgroundColor="LightSteelBlue" Grid.Row="2" Grid.Column="0" FontSize="Large" TextColor="Black" Text="Artist" Clicked="Button_Clicked_1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" ></Button>
+            <Button WidthRequest="300" Padding="20" BackgroundColor="LightGoldenrodYellow" Grid.Row="3" Grid.Column="0" FontSize="Large" TextColor="Black" Text="Food" Clicked="Button_Clicked_2" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"  ></Button>
         </StackLayout>
         </Grid>
 

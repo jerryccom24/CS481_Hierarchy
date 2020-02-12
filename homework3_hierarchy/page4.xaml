@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="homework3_hierarchy.page4" Title="Bonus Question">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="homework3_hierarchy.page4" Title="Bonus Question" BackgroundColor="LightGreen">
     <ContentPage.Content>
         <StackLayout>
             <Label FontAttributes="Bold" FontSize="Large" Text="Please answer the question correctly." HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
-            <Button WidthRequest="300" Padding="20" BackgroundColor="LightBlue" FontSize="Large" Text="Return to Home" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Button_Clicked"></Button>
+            <Button WidthRequest="300" Padding="20" BackgroundColor="LightGoldenrodYellow" TextColor="Black" FontSize="Large" Text="Return to Home" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

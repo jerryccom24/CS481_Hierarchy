@@ -10,7 +10,7 @@ namespace homework3_hierarchy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage());//Make the root page (Main Page) a Nav page
         }
 
         protected override void OnStart()
