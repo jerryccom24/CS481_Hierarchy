@@ -20,17 +20,17 @@ namespace homework3_hierarchy
 
         void Button_Clicked(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new page1());
+            Navigation.PushAsync(new page1());//push our page1
         }
 
         void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new page2());
+            Navigation.PushAsync(new page2());//push our page2
         }
 
         void Button_Clicked_2(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new page3());
+            Navigation.PushAsync(new page3());//push our page3
         }
     }
 }

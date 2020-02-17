@@ -14,8 +14,11 @@ namespace homework3_hierarchy
 
         void Button_Clicked(System.Object sender, System.EventArgs e)
         {
+            //When user pressses BONUS QUESTION
+            
             Navigation.PushAsync(new page4());
-            DisplayAlert("Question","Is pineannple a good topping for pizza?","No","Definitely No");
+            
+
         }
     }
 }

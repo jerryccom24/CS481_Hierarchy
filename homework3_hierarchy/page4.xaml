@@ -3,6 +3,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label FontAttributes="Bold" FontSize="Large" Text="Please answer the question correctly." HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+            <Label x:Name="answer" FontAttributes="Bold" FontSize="Large" Text=" " HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
             <Button WidthRequest="300" Padding="20" BackgroundColor="LightGoldenrodYellow" TextColor="Black" FontSize="Large" Text="Return to Home" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
