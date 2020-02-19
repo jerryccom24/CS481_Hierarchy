@@ -12,5 +12,9 @@ namespace homework3_hierarchy
             InitializeComponent();
         }
 
+        void GoToWeb(Object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.imdb.com/title/tt0381061/"));
+        }
     }
 }

@@ -20,7 +20,9 @@ namespace homework3_hierarchy
         //the page4.xaml to the root page.
         void Button_Clicked(System.Object sender, System.EventArgs e)
         {
+            DisplayAlert("Alert", "You have left the 2-PAGE-DEEP page.", "OK");
             Navigation.PopToRootAsync();
+            
         }
 
         //Overide on appearing so that it displays the alert
@@ -28,13 +30,20 @@ namespace homework3_hierarchy
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            bool x = await DisplayAlert("Question", "Is pineannple a good topping for pizza?", "No", "Definitely No");
+            bool x = await DisplayAlert("Question", "Is pineannple a good topping for pizza?", "Yes", "No");
             if (x)//They answered "No"
-                this.answer.Text = "You Answered: \"No\" \n Good Answer!";
+                this.answer.Text = "You Answered: \"Yes\" \n I urge you to reconsider!";
 
             else//They answered "Definitely No"
-                this.answer.Text = "You Answered: \"Definitely No\" \n Great Answer!";
+                this.answer.Text = "You Answered: \"No\" \n Great Answer!";
         }
+
+        //On Disappear, It will display the alert that you have left the 2-PAGE-DEEP page
+        async void ContentPage_Disappearing(System.Object sender, System.EventArgs e)
+        {
+            await DisplayAlert("Alert", "You have left the 2-PAGE-DEEP page.", "OK");
+        }
+
 
 
 

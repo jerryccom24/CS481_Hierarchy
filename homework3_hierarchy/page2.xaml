@@ -4,6 +4,36 @@
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Label Text="Skrillex" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" ></Label>
             <Image  HorizontalOptions="CenterAndExpand"  Source="skrillex.jpg"></Image>
+
+            <Label Padding="25" Text="Top 10 Favorite Songs:" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <ScrollView VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <StackLayout>
+                <Label FontSize="Large" Text="#1   Show Me Love(2016)"></Label>
+
+                <Label FontSize="Large" Text="#2   Stranger(2014)"></Label>
+
+                <Label FontSize="Large" Text="#3   Mumbai Power(2019)"></Label>
+
+                <Label FontSize="Large" Text="#4   Fuji Opener(2019)"></Label>
+
+                <Label FontSize="Large" Text="#5   All I Ask of You(2010)"></Label>
+
+                <Label FontSize="Large" Text="#6   Take U There(2015)"></Label>
+
+                <Label FontSize="Large" Text="#7   Where Are U Now(2015)"></Label>
+
+                <Label FontSize="Large" Text="#8   Kill Everybody(2010)"></Label>
+
+                <Label FontSize="Large" Text="#9   Bangarang(2011)"></Label>
+
+                <Label FontSize="Large" Text="#10  Summit(2011)"></Label>
+     
+
+                </StackLayout>
+            </ScrollView>
+
         </StackLayout>
+
+        
     </ContentPage.Content>
 </ContentPage>
